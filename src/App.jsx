@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CapsLock from './Capslock'
 import Contador from './Contador'
+import TodoApp from './ToDoApp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <h1>Hello World</h1>
       <CapsLock>poxa vida</CapsLock>
       <Contador></Contador>
+      <TodoApp></TodoApp>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
